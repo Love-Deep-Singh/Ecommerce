@@ -88,3 +88,20 @@
     padding:.5rem;
     cursor: pointer;
 }
+.rec-flex{
+    width:100%;
+    display:flex;
+    align-items:center;
+
+} 
+.rec-items{
+    width:25%;
+    
+    
+}
+.rec-items> img{
+    width:100%;
+    outline:1px solid black;
+    
+    
+}

@@ -2,9 +2,7 @@ import React from 'react'
 import "./style.css"
 import productimg from "../../assets/Left-column-product.png"
 import "../../index.css"
-import ButtonGroup from '@mui/material/ButtonGroup';
-import Button from "@mui/material/Button"
-
+import SimpleImageSlider from "react-simple-image-slider";
 function Hero() {
   return (
     <>
@@ -29,7 +27,9 @@ function Hero() {
                     
             <div className='recomendations'>
                 <h2 clas>Excellent with:</h2>
-                <div></div>
+                <div>
+                 
+                </div>
             </div>
             <div></div>
             <button className='black-button'>Add to cart</button>

@@ -19,6 +19,28 @@ import Pinterest from "../../assets/Pinterest.png"
 import Footer from '../components/Footer'
 
 function home() {
+  const images=[
+    {
+      id:1,
+      url:cardimg1,
+      alt:"card-image"
+    },
+    {
+      id:2,
+      url:cardimg2,
+      alt:"card-image"
+    },
+    {
+      id:3,
+      url:cardimg3,
+      alt:"card-image"
+    },
+    {
+      id:4,
+      url:cardimg4,
+      alt:"card-image"
+    }
+  ];
   return (
     <>
     <Navbar></Navbar>
@@ -35,31 +57,15 @@ function home() {
             </div>
           </div>
          <div className='hero-card-container'>
-          <div className="card">
-            <div className="card-text">Fresh Flowers</div>
-          <div className="card-img"><img src={cardimg1} alt="" /></div>
-          
-          </div>
-          <div className="card">
-          <div className="card-img"><img src={cardimg2} alt="" /></div>
-            <div className="card-text">Fresh Flowers</div>
-          
-          </div>
-          <div className="card">
-            <div className="card-text">Fresh Flowers</div>
-          <div className="card-img"><img src={cardimg3} alt="" /></div>
-          
-          </div>
-          <div className="card">
-          <div className="card-img"><img src={cardimg4} alt="" /></div>
-            <div className="card-text">Fresh Flowers</div>
-          
-          </div>
-          <div className="card">
-            <div className="card-text">Fresh Flowers</div>
-          <div className="card-img"><img src={cardimg5} alt="" /></div>
-          
-          </div>
+    {images.map((images)=>{
+    
+    <div key={images.id} className="card">
+    <div className="card-text">{images.alt}</div>
+    <div className="card-img"><img src={images.url} alt="" /></div>
+    <div>hello</div>
+     </div>
+     console.log("i was mapped ");
+     })} 
           </div>
         </div>
         <div className="about ">

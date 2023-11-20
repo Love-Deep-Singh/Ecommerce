@@ -6,7 +6,7 @@ function Footer() {
     <div className='footer flex'>
           <div className='footer-form'>
             <p className="footer-text">Remember to offer beautiful flowers from Kyiv LuxeBouquets Valentines Day, Mothers Day, Christmas... Reminds you 7 days before. No spam or sharing your address</p>
-            <input placeholder='Enter Your Email' type="text contact form" />
+            <input placeholder=' Enter Your Email' type="text contact form" />
             <button className='black-button'>Remind</button>
           </div>
           <div className='footer-list'>

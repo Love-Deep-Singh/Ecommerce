@@ -327,6 +327,11 @@ height: 11vh;
   width: 20vw;
   height: 2rem;
 }
+.footer div input::placeholder{
+  font-family: 'Courier New', Courier, monospace;
+  padding:.2rem;
+
+}
 .footer-text{
   text-align: left;
   padding:.5rem 2rem;
